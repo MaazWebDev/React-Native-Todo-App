@@ -185,20 +185,20 @@ const styles = StyleSheet.create({
   actions: {
     flexDirection: "row",
     justifyContent: "space-between",
-    width: "100%", // Ensure the buttons take up the full width of the container
+    width: "100%",
   },
   editBtn: {
     backgroundColor: "#FFC107",
     padding: 10,
-    flex: 1, // Each button takes up 50% of the container
-    marginRight: 5, // Space between buttons
+    flex: 1,
+    marginRight: 5,
     borderRadius: 5,
   },
   deleteBtn: {
     backgroundColor: "#F44336",
     padding: 10,
-    flex: 1, // Each button takes up 50% of the container
-    marginLeft: 5, // Space between buttons
+    flex: 1,
+    marginLeft: 5,
     borderRadius: 5,
   },
   noTodo: {
